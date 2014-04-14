@@ -38,7 +38,7 @@ Datapath Simulation Results Using the Modified .wcfg File:
 ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Modified.JPG)
   
 Debugging for the Datapath.vhd File
-- Ok.
+- Initially, I struggled with this portion of the lab. Once I figured out how to code the Instruction Register, the rest of the coding came easily. I ran into two major errors during this section of the lab. The first was a syntax error that stated that I had an unexpected "IF" in my code. After 15 to 20 minutes of reading through my code and checking online, I decided to try and edit my If statements. I changed every instance of "else if" to "elsif". Suprisingly, this corrected the syntax problem I had run into. I learned there is a difference between "else if" amd "elsif." My second error was for my AeqZero function. Originally, I had tried to OR the NOT of each accumulator bit. This gave me the incorrect result. I changed the coding so that I took the NOT of all four accumulator bits added together rather than individually. This seemed to give me the correct results. 
   
 Correct Functionality?
-- I am confident that my ALU vhd file is correct based on my simualtion results. The OpSel function defines how the ALU operates. The possible ALU operations are shown below. Based on the selected OpSel function, which is shown in my simulation results, I knew what the result should equal based on the accumulator value and the data value. With the expected results known, I could then compare the expected results to the simulated results of the simulation results. My expected results matched my simulation results thus supporting my claim that my vhd file is properly coded. 
+- To check my functionality, I compared my simulation results to the image of the correct simulation results provided in the lab. My results matched leading me to believe that I have completed this section of the lab correctly. 
