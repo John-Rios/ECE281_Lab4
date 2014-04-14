@@ -1,6 +1,6 @@
 ECE281_Lab4 : Datapath
 ===========
-
+______________________________________________
 ALU
 -
 
@@ -31,4 +31,12 @@ Correct functionality?
   Datapath
   -
   
+  Datapath Simulation Results:
+  ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Results.JPG)
+  
+  Datapath Simulation Results Using the Modified .wcfg File:
+  ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/ALU_Sim_Modified.JPG)
+  
+  Debugging for the Datapath.vhd File
+  - 
   
