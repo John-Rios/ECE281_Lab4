@@ -27,16 +27,18 @@ Correct functionality?
   | 6 | ADD	|
   | 7 | LD |
   
-  __________________________________________________________________
-  Datapath
-  -
+___________________________________________________________________
+Datapath
+-
   
-  Datapath Simulation Results:
-  ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Results.JPG)
+Datapath Simulation Results:
+![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Results.JPG)
   
-  Datapath Simulation Results Using the Modified .wcfg File:
-  ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/ALU_Sim_Modified.JPG)
+Datapath Simulation Results Using the Modified .wcfg File:
+![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Modified.JPG)
   
-  Debugging for the Datapath.vhd File
-  - 
+Debugging for the Datapath.vhd File
+- Ok.
   
+Correct Functionality?
+- I am confident that my ALU vhd file is correct based on my simualtion results. The OpSel function defines how the ALU operates. The possible ALU operations are shown below. Based on the selected OpSel function, which is shown in my simulation results, I knew what the result should equal based on the accumulator value and the data value. With the expected results known, I could then compare the expected results to the simulated results of the simulation results. My expected results matched my simulation results thus supporting my claim that my vhd file is properly coded. 
