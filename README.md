@@ -42,3 +42,12 @@ Debugging for the Datapath.vhd File
   
 Correct Functionality?
 - To check my functionality, I compared my simulation results to the image of the correct simulation results provided in the lab. My results matched leading me to believe that I have completed this section of the lab correctly. 
+
+_______________________________________________________________________
+Reverse Engineering
+-
+
+Simulation Analysis: 
+
+Datapath Simulation Results Using the Modified .wcfg File:
+![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Modified.JPG)
