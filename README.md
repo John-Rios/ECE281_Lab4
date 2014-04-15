@@ -51,3 +51,7 @@ Simulation Analysis:
 
 Datapath Simulation Results Using the Modified .wcfg File:
 ![ALU] (https://raw.github.com/John-Rios/ECE281_Lab4/master/DataPath_Sim_Modified.JPG)
+
+Analysis:
+- While attempting to conduct my analysis I ran into an error that stated "ERROR: at 106ns(10000): Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation can not advance in time because signals can not resolve to a stable value in File"C:/Users/C15john.Rios?Documents/ECE281/PRISM_Rios/Lab4/ALU_shell.vhd" Line 74. Please correct this code in order to advance past the current simulation time." The following was the line of bad code: "Result <= Data OR Accumulator;". I could not find an error with this line. I looked online, used the ISim help function, and simply attempted changing the code but was never successful in correcting the error. My simulation stopped at 106ns due to this error.
+- 
