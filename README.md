@@ -27,6 +27,9 @@ Correct functionality?
   | 6 | ADD	|
   | 7 | LD |
   
+  
+![Schm] (https://raw.github.com/John-Rios/ECE281_Lab4/master/Schematic.JPG)
+  
 ___________________________________________________________________
 Datapath
 -
@@ -62,3 +65,5 @@ Analysis:
 - 85-105: IR equals 5 meaning we are inputing a value. The value should load into the accumulator on the next clock cycle.
 - 105-END: Error. My simulation would not proceed past 106ns, or the 10000 iteration. The ISIM stated that a WEBPACK license was not found. The following message displayed: "ERROR: at 106ns(10000): Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation can not advance in time because signals can not resolve to a stable value in File"C:/Users/C15john.Rios?Documents/ECE281/PRISM_Rios/Lab4/ALU_shell.vhd" Line 74. Please correct this code in order to advance past the current simulation time."
 - 0-50ns: My code behaves as expected. The lab provides the description for this section of the simulation.
+
+![Reverse Eng] (https://raw.github.com/John-Rios/ECE281_Lab4/master/Reverse_Engineering.JPG)
